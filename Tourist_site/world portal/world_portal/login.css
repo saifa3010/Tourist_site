@@ -1,0 +1,18 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: aliceblue;
+}
+
+form{
+}
+
+.btn-primary {
+    background-color: rosybrown;
+    --bs-btn-border-color: rosybrown;
+    --bs-btn-hover-bg: brown;
+    --bs-btn-color: black;
+    --bs-btn-hover-border-color: brown;
+}

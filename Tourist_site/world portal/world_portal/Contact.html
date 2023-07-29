@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="Contact.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+
+    <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <img src="images/logo.png" alt="Bootstrap" width="80" height="80">
+            <h4 style="padding:20px">
+                <span id="result-name" />
+            </h4>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="Home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="Touristic Places.html">Touristic Places</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="#">Contact us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="login.html">Login</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+        </nav>
+
+    </header>
+
+
+
+
+    <main>
+
+        <div class="container  mt-5 mb-5">
+                    <div class="row m-0">
+                        <div class="col-md-3 bg-custom p-0 d-flex text-center  justify-content-center flex-column display-none">
+                            <h3 class="mb-2">Contact Info</h3>
+                            <div class="info">
+                                <ul>
+                                    <li class="m-3">Jordam</li>
+                                    <li class="m-3">saif07108@gmail.com</li>
+                                    <li class="m-3">0781949811</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="con" class="col-md-8 p-0  pt-4 pb-4">
+                            <h3 class="p-4">Send a message</h3>
+                            <form class="  w-100 p-4 " action="#">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <input id="name" type="text" class="form-control"  placeholder="Full Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <input id="email" type="email" class="form-control"  placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <textarea id="msg"  class="form-control" placeholder="Message" required rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="button">
+                                    <button id="send"  onclick="message();this.form.submit();this.disabled = true;" type="button" class="btn btn-custom btn-lg btn-block mt-3">Send Now</button>
+                                </div>
+                                <div class="messagee">
+                                    <div class="success" id="success">Your Message Successfully Sent!</div>
+                                    <div class="danger" id="danger">Feilds Can't be Empty!</div>
+                                </div>
+
+
+
+                            </form>
+                        </div>
+                        <div class="col-md-1 bg-white display-none ">
+                            <div class="social-icons">
+
+                                <img class="m-4" style="width:60px;" src="images/facebook.png" />
+                                <img class="m-4" style="width:60px;" src="images/instagram.png" />
+                                <img class="m-4" style="width:60px;" src="images/linkedin.png" />
+                                <img class="m-4" style="width:60px;" src="images/twitter.png" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <footer>
+
+        <div class="footer">
+            <div class="foot">
+                <img src="images/facebook.png" />
+                <img src="images/twitter.png" />
+                <img src="images/instagram.png" />
+                <img src="images/linkedin.png" />
+            </div>
+
+            <div class="foot">
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                &copy; 2022 - All rights reserved || Designed By: Saif Al-den
+            </div>
+        </div>
+    </footer>
+
+    <script src="Contact.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
+

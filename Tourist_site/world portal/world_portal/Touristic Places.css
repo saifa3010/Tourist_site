@@ -1,0 +1,116 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body {
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: rosybrown;
+    --bs-navbar-padding-y: 0;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: brown;
+}
+
+
+.btn-primary {
+    --bs-btn-color: black;
+    --bs-btn-bg: rosybrown;
+    --bs-btn-border-color: rosybrown;
+    --bs-btn-hover-color: brown;
+    --bs-btn-hover-bg: rosybrown;
+    --bs-btn-hover-border-color: rosybrown;
+}
+.row {
+    margin-top: 100px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.button-solid {
+    border: none;
+    background-color:white;
+    text-align:left;
+}
+
+button-solid:focus {
+    border: none;
+    outline: none;
+}
+
+#show {
+    display: none;
+}
+
+
+#show2 {
+    display: none;
+}
+
+
+#show3 {
+    display: none;
+}
+
+#show4 {
+    display: none;
+}
+
+#show5 {
+    display: none;
+}
+
+#show6{
+    display: none;
+}
+
+
+
+.footer {
+    background-color: rosybrown;
+    padding: 30px 0px;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+.footer .foot {
+    width: 100%;
+    margin: 10px 0;
+    padding: 6px 0;
+    color: black;
+    font-size: 18px;
+}
+
+.footer .foot img {
+      width: 40px;
+      margin-left: 20px;
+ }
+
+.footer .foot a {
+      text-decoration: none;
+      color: black;
+  }
+
+.footer .foot a:hover {
+        color: brown;
+ }
+
+
+
+.footer .foot ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
